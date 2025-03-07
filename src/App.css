@@ -51,12 +51,46 @@ h1 {
   color: #ffffff4d;
 }
 
+
 .todo-btn {
   background: #8758ff;
   color: #fff;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+}
+
+.edit-todo-input {
+  color: #fff;
+  background: #8758ff;
+  border: none;
+  font-size: 1em;
+}
+
+.edit-todo-input::placeholder {
+  color: #ffffff93;
+  font-size: .7em;
+}
+
+.edit-todo-input:focus {
+  outline: none;
+  border: none;
+}
+
+.EditTodoForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.edit-todo-btn {
+  padding: 0.1rem;
+  color: #ffffffb1;
 }
 
 .Todo {
